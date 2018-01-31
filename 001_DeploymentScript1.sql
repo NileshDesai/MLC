@@ -1,3 +1,4 @@
+/*I like to see diff in github on top line*/
 /* 
 
 Collect info for sysparam, volume updates and various other tables and store in DB for update by 002 Sysparam_And_Volumes
@@ -12,7 +13,6 @@ LegalServiceHost
 LegalTaskScheduler
 
 •	Export existing ALB fields
-
 Module Info: Forms and Document Paths
 Table: Volumes
 Column: VolumeLocation
@@ -307,6 +307,9 @@ end
 --END
 --GO
 
+
 Print '************************************************************************************************************************************'
 print 'Backup of parameters and selected files is now completed - The associated services have been stopped - Please restore ALB databases.'
 Print '************************************************************************************************************************************'
+
+/*I like to see diff in github on bottom line*/
